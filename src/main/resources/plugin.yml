@@ -1,0 +1,23 @@
+name: MMOCraft
+version: '${project.version}'
+main: me.devvy.mmocraft.MMOCraft
+api-version: 1.18
+
+commands:
+  stats:
+    description: Used to view player stats
+  experience:
+    description: Used to modify player level, never use in prod env
+    permission: op
+  editstats:
+    description: Used to modify entity stats, never use in prod env
+    permission: op
+  datareset:
+    description: used to reset all persistent data of all active entities
+    permission: op
+  spawn:
+    description: used to spawn a custom mob
+    permission: op
+  mmogive:
+    description: used to spawn a custom item
+    permission: op
